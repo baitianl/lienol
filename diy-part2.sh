@@ -19,4 +19,4 @@
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
 git clone https://github.com/sirpdboy/luci-app-advanced package/luci-app-advanced
-#sed -i '$a src-git kenzo https://github.com/kiddin9/openwrt-packages.git' feeds.conf.default
+git clone https://github.com/ntlf9t/luci-app-easymesh package/luci-app-easymesh
